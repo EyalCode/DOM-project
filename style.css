@@ -18,6 +18,16 @@
     -30px 20px 40px dimgrey;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  /*margin-left: auto;
+*/
+}
+
 .done {
   text-decoration: line-through;
 }
