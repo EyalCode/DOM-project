@@ -23,6 +23,7 @@ function createButton(liTarget) {
 	var newButton = document.createElement("button");
 	newButton.appendChild(document.createTextNode("Remove"));
 	liTarget.appendChild(newButton);
+	newButton.className = "remove";
 	newButton.addEventListener("click", deleteListItem);
 }
 
